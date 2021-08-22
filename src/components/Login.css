@@ -1,0 +1,17 @@
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5d8fc9;
+  min-height: 100vh;
+}
+h3 {
+  margin: 0 0 0 20px;
+  font-style: italic;
+}
+
+@media (max-width: 582px) {
+  .login {
+    flex-direction: column;
+  }
+}

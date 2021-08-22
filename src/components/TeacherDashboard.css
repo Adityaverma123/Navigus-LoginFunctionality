@@ -1,0 +1,26 @@
+.dashboard {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.logout {
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+}
+.logo {
+  margin: 0;
+  color: #fff;
+  margin-left: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  align-items: center;
+}
+.addCourseBtn {
+  align-self: flex-start;
+  border-radius: 5px;
+}
